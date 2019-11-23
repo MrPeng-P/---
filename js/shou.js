@@ -31,21 +31,21 @@ document.onscroll = function () {
 
 
 
-// for (let o = 0; o < lits.length; o++) {
+for (let o = 0; o < lits.length; o++) {
 
-//     lits[o].setAttribute('index', o);
+    lits[o].setAttribute('index', o);
 
-//     lits[o].onmouseover = function () {
+    lits[o].onmouseover = function () {
 
-//         var index = this.getAttribute('index');
-//         // 干掉所有人 让其余的list 这些div 隐藏
-//         for (let i = 0; i < list.length; i++) {
-//             list[i].style.display = 'none';
-//         }
-//         // 留下我自己 让对应的item 显示出来
-//         list[index].style.display = 'block';
-//     }
-// }
+        var index = this.getAttribute('index');
+        // 干掉所有人 让其余的list 这些div 隐藏
+        for (let i = 0; i < list.length; i++) {
+            list[i].style.display = 'none';
+        }
+        // 留下我自己 让对应的item 显示出来
+        list[index].style.display = 'block';
+    }
+}
 
 // let fla = 0 ;
 // tab.onclick = function () {
