@@ -3,19 +3,195 @@
     font-size: 150px !important;
   }
 }
-body {
-  height: 33.333333rem;
+.dianzi {
+  position: absolute;
+  display: none;
+  width: 100%;
+  top: 37px;
+  z-index: 55555;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.dianzi .king {
+  height: 300px;
+  width: 100%;
+  background: url(images/bg.png) no-repeat;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cfcfcf;
+}
+.dianzi .king ul {
+  display: flex;
+  justify-content: space-around;
+  width: 1164px;
+  margin: 0 auto;
+}
+.dianzi .king ul li {
+  display: flex;
+  justify-content: space-around;
+  width: 192px;
+}
+.dianzi .king ul li .dao {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+}
+.dianzi .king ul li .dao div {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.dianzi .king ul li .xiao {
+  display: none;
+  width: 100px;
+}
+.dianzi .king ul li .xiao ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dianzi .king ul li .xiao ul li {
+  width: 100px;
+  height: 100px;
+}
+.dianzi .king ul li .xiao ul li a {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.dianzi .king ul li .xiao ul li a img {
+  width: 100px;
+}
+.dianzi .king-buttom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cfcfcf;
+  text-align: center;
+}
+.dianzi .king-buttom div {
+  color: #fff;
+  margin: 0 20px;
+}
+.dianzi .king-buttom div .jibg-1 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  background: url(../images/sprite-24-blue.png) -27px -194px;
+}
+.dianzi .king-buttom div .jibg-2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  background: url(../images/product-icons-sprite24x24.2b1fd871.png) -220px -2px;
+}
+.bg-55 {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+.lie {
+  position: absolute;
+  width: 100%;
+  height: 220px;
+  top: 37px;
+  background-color: rgba(21, 26, 35, 0.95);
+  z-index: 55555;
+  display: none;
+}
+.lie ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 97%;
+  height: 160px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.lie ul li {
+  width: 120px;
+  height: 160px;
+}
+.lie ul li a {
+  display: block;
+  width: 120px;
+  height: 160px;
+  text-align: center;
+  overflow: hidden;
+}
+.lie ul li a .tuo {
+  margin-left: -100%;
+  transform: translateX(43%);
+  width: 192px;
+  height: 160px;
+}
+.tab1 {
+  position: absolute;
+  display: none;
+  right: 20px;
+  top: 37px;
+  width: 318px;
+  height: 167px;
+  background-color: #373c47;
+  border: 1px solid #585555;
+  z-index: 9999;
+}
+.tab1 .butt {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-bottom: 1px solid #585555;
+}
+.tab1 .butt button {
+  font-size: 16px;
+  padding: 10px 115px;
+  color: #fff;
+  background-color: #00aeff;
+  border: 1px solid #00aeff;
+}
+.tab1 .tab-2 {
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  color: #cfcfcf;
+  border-bottom: 1px solid #585555;
+}
+.tab1 .tab-2 span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 25px;
+}
+.tab1 .tab-2 .jinglin-1 {
+  background: url(../images/sprite-24-blue.png) -76px -77px;
+}
+.tab1 .tab-2 .jinglin-2 {
+  background: url(../images/sprite-24-blue.png) -27px -123px;
 }
 .head {
   position: absolute;
-  z-index: 2;
+  z-index: 222;
   width: 100%;
 }
 .head .head-loog {
-  background-color: #000;
-  opacity: 0.7;
-  padding: 0 0.266667rem;
-  height: 0.266667rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 0 37px;
+  height: 37px;
 }
 .head .head-loog .box {
   width: 100%;
@@ -29,7 +205,7 @@ body {
   display: block;
   height: 0.266667rem;
   width: 0.413333rem;
-  background: url(../imag/icon-sprite.png) no-repeat -17px -75px;
+  background: url(../images/icon-sprite.png) no-repeat -17px -77px;
 }
 .head .head-loog .box .navigation {
   position: relative;
@@ -50,11 +226,12 @@ body {
 }
 .head .head-loog .box .navigation a .nav-jian {
   display: inline-block;
-  width: 0.046667rem;
-  height: 0.046667rem;
-  border-bottom: 1px solid #aaa;
-  border-left: 1px solid #aaa;
-  transform: rotate(-45deg);
+  width: 16px;
+  height: 16px;
+  color: #ccc;
+}
+.head .head-loog .box .navigation a:hover .nav-nan {
+  color: #fff;
 }
 .head .head-loog .box .navigation-right {
   left: 0.166667rem;
@@ -64,6 +241,9 @@ body {
   display: block;
   float: left;
 }
+.head .head-loog .box .navigation-right .tab {
+  position: relative;
+}
 .propaganda {
   width: 100%;
   height: 4rem;
@@ -71,7 +251,6 @@ body {
 }
 .propaganda .nav-hang {
   position: absolute;
-  float: left;
   top: 0.533333rem;
   z-index: 66;
   height: 48px;
@@ -103,8 +282,8 @@ body {
 .propaganda .nav-hang .mi-nav ul .mi-xia .nav-wu {
   display: flex;
   align-items: center;
-  height: 0.32rem;
-  line-height: 0.32rem;
+  height: 48px;
+  line-height: 48px;
   text-align: center;
   padding: 0 0.1rem;
   color: #000;
@@ -122,15 +301,15 @@ body {
   display: block;
   width: 0.093333rem;
   height: 0.053333rem;
-  background: url(../imag/toubiao.png) no-repeat 0 0;
+  background: url(../images/toubiao.png) no-repeat 0 0;
 }
 .propaganda .nav-hang .mi-nav ul .mi-xia ul {
+  display: none;
   position: absolute;
-  display: flex;
-  flex-direction: column;
   background-color: #353C42;
 }
 .propaganda .nav-hang .mi-nav ul .mi-xia ul a {
+  display: none;
   display: block;
   margin-left: 0.1rem;
   padding: 0.066667rem 0;
@@ -140,7 +319,7 @@ body {
 .propaganda .nav-hang .gou {
   float: right;
   width: 0.76rem;
-  height: 0.32rem;
+  height: 48px;
   text-align: center;
   line-height: 0.32rem;
   background-color: #F89E35;
@@ -172,13 +351,6 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-.propaganda .prd-loog .plg-loog span {
-  display: block;
-  width: 2.333333rem;
-  height: 2.133333rem;
-  background: url(../images/shou.png) no-repeat;
-  background-size: 2.333333rem;
-}
 .propaganda .prd-loog .plg-botton {
   position: absolute;
   width: 100%;
@@ -199,9 +371,6 @@ body {
 }
 .propaganda .prd-loog .plg-botton .plg-clher a .plg-right {
   background-color: #ff9c00;
-}
-.xia {
-  overflow: hidden;
 }
 .xin {
   width: 7.933333rem;
@@ -341,21 +510,20 @@ body {
   transform: translateX(-50%);
   width: 8.333333rem;
   height: 2.966667rem;
-  overflow: hidden;
 }
 .bg .tu .luen .huan .qie {
-  width: 600%;
+  width: 100%;
+  height: 100%;
 }
 .bg .tu .luen .huan .qie li {
-  display: flex;
-  float: left;
-  justify-content: space-around;
+  display: none;
   width: 1250px;
   height: 440px;
 }
 .bg .tu .luen .huan .qie li .bgtu {
-  width: 746px;
-  height: 440px;
+  float: left;
+  width: 680px;
+  height: 400px;
   background-color: #ccc;
 }
 .bg .tu .luen .huan .qie li .bg1-tu {
@@ -379,10 +547,12 @@ body {
   background-size: contain;
 }
 .bg .tu .luen .huan .qie li .bg1-zi {
+  float: left;
+  margin-top: 130px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 504px;
+  width: 430px;
 }
 .bg .tu .luen .huan .qie li .bg1-zi h2 {
   text-align: center;
@@ -396,10 +566,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   top: 3.066667rem;
-  background-color: #ccc;
 }
 .bg .tu .luen .xuan ul {
   display: flex;
+  padding: 10px;
   justify-content: center;
   flex-wrap: wrap;
   width: 7.933333rem;
@@ -414,25 +584,47 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 .bg .tu .luen .xuan ul li a .box {
-  background-color: rgba(51, 51, 51, 0.9);
-  transform: rotate(5deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 78px;
+  border-radius: 2px;
   overflow: hidden;
-}
-.bg .tu .luen .xuan ul li a .box .box-tu {
-  transform: rotate(-10deg);
-  width: 0.533333rem;
-  height: 0.6rem;
-  border-radius: 0.033333rem;
-  overflow: hidden;
-  z-index: 5;
 }
 .bg .tu .luen .xuan ul li a .box .box-1 {
+  width: 72px;
+  height: 90px;
+  transform: rotate(5deg);
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: rgba(51, 51, 51, 0.9);
+}
+.bg .tu .luen .xuan ul li a .box .box-1 .box-bg {
+  transform: rotate(-5deg);
+  width: 72px;
+  height: 90px;
+}
+.bg .tu .luen .xuan ul li a .box .box-1 .box-tu1 {
   background: url(../images/xiao1.png) no-repeat center center;
+  background-size: cover;
+}
+.bg .tu .luen .xuan ul li a .box .box-1 .box-tu2 {
+  background: url(../images/xiao2.png) no-repeat center center;
+  background-size: cover;
+}
+.bg .tu .luen .xuan ul li a .box .box-1 .box-tu3 {
+  background: url(../images/xiao3.png) no-repeat center center;
+  background-size: cover;
+}
+.bg .tu .luen .xuan ul li a .box .box-1 .box-tu4 {
+  background: url(../images/xiao4.png) no-repeat center center;
+  background-size: cover;
+}
+.bg .tu .luen .xuan ul li a .box .box-1 .box-tu5 {
+  background: url(../images/xiao5.png) no-repeat center center;
   background-size: cover;
 }
 .bg .tu .luen .xuan ul li a span {
@@ -485,7 +677,7 @@ body {
 }
 .tt {
   width: 100%;
-  height: 2.530333rem;
+  height: 450px;
   background-color: #222;
 }
 .tt .taill {

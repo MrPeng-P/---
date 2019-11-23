@@ -1,0 +1,558 @@
+.vido {
+  position: relative;
+  width: 100%;
+  height: 745px;
+  overflow: hidden;
+}
+.vido .bgc {
+  width: 100%;
+  height: 745px;
+  background: url(../images/bgc.jpg) no-repeat center center;
+  background-size: cover;
+}
+.vido .bgc .media {
+  width: 100%;
+  height: 745px;
+  margin: auto;
+}
+.vido .zhaoping {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 800px;
+  text-align: center;
+}
+.vido .zhaoping .zhiti {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  font-size: 120px;
+  color: #fff;
+  text-align: center;
+  line-height: 150px;
+}
+.vido .zhaoping .zhiti:hover {
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+.vido .zhaoping .font {
+  font-size: 68px;
+  color: #fff;
+  font-weight: 700px;
+}
+.vido .zhaoping .jiar {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 10px;
+}
+.vido .zhaoping button {
+  margin-top: 50px;
+  width: 210px;
+  height: 46px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0e86ca;
+  border: 1px solid #00aeff;
+}
+.vido .zhaoping button:hover {
+  background-color: #00aeff;
+}
+.nav-work {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.nav-work .nav-top .nav-work-top {
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.nav-work .nav-top .nav-work-top header {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 60px;
+  padding: 0 40px;
+  margin: auto;
+}
+.nav-work .nav-top .nav-work-top header a {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  width: 86px;
+  height: 60px;
+  background: url(../images/icon-sprite.png) no-repeat -17px -8px;
+}
+.nav-work .nav-top .nav-work-top header span {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  font-size: 20px;
+  color: #fff;
+}
+.nav-work .nav-top .nav-work-botton {
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+.nav-work .nav-top .nav-work-botton nav {
+  box-sizing: border-box;
+  width: 1200px;
+  height: 40px;
+  padding: 0 40px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.nav-work .nav-top .nav-work-botton nav li {
+  float: left;
+  height: 40px;
+  box-sizing: border-box;
+  margin: 0 20px 0 0;
+}
+.nav-work .nav-top .nav-work-botton nav li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+.nav-work .nav-top .nav-work-botton nav li a span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -5px;
+  width: 20px;
+  height: 14px;
+  background: url(../images/sprite-24-blue.png) no-repeat -26px -29px;
+}
+.nav-work .nav-top .nav-work-botton nav .shenqing {
+  float: right;
+  display: block;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+}
+.nav-work .nav-top .nav-work-botton nav .shenqing span {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  vertical-align: middle;
+  margin-top: -5px;
+  background: url(../images/sprite-24-blue.png) no-repeat -26px -76px;
+}
+.bodys {
+  position: relative;
+  width: 100%;
+  height: 1300px;
+  background: url(../images/careers-landing_intro-bg-lrg.jpg) no-repeat;
+  background-size: cover;
+}
+.bodys .box-1 {
+  width: 100%;
+  height: 80px;
+}
+.bodys p {
+  width: 992px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+.bodys .mike {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 80px;
+  width: 1160px;
+}
+.bodys .mike .mike-top {
+  display: flex;
+  justify-content: space-around;
+  background-color: #011B39;
+  width: 1120px;
+  height: 450px;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+.bodys .mike .mike-top .mike-top-left {
+  float: left;
+  padding: 20px;
+  background-color: #011B39;
+}
+.bodys .mike .mike-top .mike-top-left .mink-one {
+  margin: 10px 0 15px 0;
+  font-size: 13px;
+  color: #ccc;
+}
+.bodys .mike .mike-top .mike-top-left .mink-two {
+  color: #fff;
+  width: 380px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.bodys .mike .mike-top .mike-top-right {
+  overflow: hidden;
+  float: right;
+  width: 660%;
+  height: 450px;
+}
+.bodys .mike .mike-top .mike-top-right span {
+  display: block;
+  width: 100%;
+  height: 450px;
+  background: url(../images/DXFNP1748G5I1480373440195.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bodys .mike-top:hover {
+  border-color: #5555cc;
+}
+.bodys .mike-top:hover span {
+  transition: 0.2s;
+  transform: scale(1.1);
+}
+.bodys .mike-button {
+  margin-top: 50px;
+  width: 100%;
+}
+.bodys .mike-button ul {
+  box-sizing: border-box;
+  height: 435px;
+}
+.bodys .mike-button ul li {
+  float: left;
+  margin-left: 20px;
+  width: 353px;
+  height: 435px;
+  background-color: #002650;
+}
+.bodys .mike-button ul li .hel {
+  width: 100%;
+  height: 100%;
+}
+.bodys .mike-button ul li .hel .lei {
+  width: 100%;
+  height: 190px;
+}
+.bodys .mike-button ul li .hel .tu1 {
+  background: url(../images/TSAK9GGQZ4781480374196471.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bodys .mike-button ul li .hel .tu3 {
+  background: url(../images/PGIVXV92UK6I1480641404477.jpg) no-repeat center center;
+  background-size: cover;
+}
+.bodys .mike-button ul li .hel .tu2 {
+  box-sizing: border-box;
+  height: 233px;
+  padding: 30px;
+  background-color: #175aa7;
+}
+.bodys .mike-button ul li .hel .tu2 span {
+  display: block;
+}
+.bodys .mike-button ul li .hel .tu2 .s1 {
+  font-size: 14px;
+}
+.bodys .mike-button ul li .hel .tu2 .s2 {
+  color: #fff;
+  font-size: 18px;
+}
+.bodys .frd {
+  text-align: center;
+  line-height: 33px;
+  padding: 5px;
+  margin-top: 50PX;
+  width: 100%;
+  height: 33px;
+}
+.bodys .frd .frd-left {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  color: #fff;
+  font-size: 40px;
+}
+.bodys .frd ul {
+  display: inline-block;
+  margin: 0 40PX 4px 40px;
+}
+.bodys .frd ul li {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.bodys .frd .frd-right {
+  display: inline-block;
+  line-height: 27px;
+  width: 27px;
+  height: 27px;
+  color: #fff;
+  font-size: 40px;
+}
+.bodys .img-tou {
+  width: 86px;
+  height: 44px;
+  margin-top: 18px;
+  padding-left: 290px;
+  vertical-align: middle;
+}
+.box-bg {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 1032px;
+  background: url(../images/landing-roles-lg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.box-bg .box-bg-left {
+  width: 100%;
+  height: 100%;
+  padding: 305px 42px;
+  box-sizing: border-box;
+}
+.box-bg .box-bg-left span {
+  display: block;
+  color: #ff9000;
+  font-size: 68px;
+}
+.box-bg .box-bg-left strong {
+  color: #fff;
+  font-size: 100px;
+}
+.box-bg .box-bg-right {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 100px 0 100px 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.box-bg .box-bg-right ul {
+  display: inline-block;
+  width: 100%;
+}
+.box-bg .box-bg-right ul li {
+  width: 100%;
+  height: 86px;
+  border-bottom: 1px solid #fff;
+}
+.box-bg .box-bg-right ul li a {
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  width: 100%;
+  height: 86px;
+  padding-left: 15px;
+  line-height: 86px;
+}
+.box-bg .box-bg-right ul li a .biao1 {
+  flex: 10%;
+  vertical-align: middle;
+  color: #ff9000;
+  font-size: 30px;
+}
+.box-bg .box-bg-right ul li a .biao2 {
+  flex: 50%;
+  font-size: 18px;
+  color: #fff;
+}
+.box-bg .box-bg-right ul li a .biao3 {
+  color: rgba(225, 225, 225, 0.3);
+  flex: 30%;
+}
+.box-bg .box-bg-right ul li a .biao4 {
+  flex: 10%;
+  font-size: 35px;
+  color: #00aeff;
+}
+.box-bg .box-bg-right ul li:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.box-bg .box-bg-right ul li:hover .biao4 {
+  color: #fff;
+}
+.understand {
+  width: 100%;
+  height: 500px;
+  background: url(../images/background-inverse-ice-782a4077912d3cddcc133be4c0f39120d8ed7b20e6bba2acbd09f16cc3b679e4c6be556956db5c6514c85ef7422d8586519c116906f9c19ad76a32beb5e84f7d.jpg);
+}
+.understand .with {
+  margin: auto;
+  width: 1200px;
+  height: 302px;
+}
+.understand .with .img-jiao {
+  padding-left: 267px;
+}
+.understand .with p {
+  text-align: center;
+  font-size: 35px;
+  color: #095386;
+}
+.understand .with ul {
+  margin: 40px 0 80px 0;
+}
+.understand .with ul li {
+  float: left;
+  padding: 0 15px;
+  background-color: #ccc;
+  width: 350px;
+}
+.understand .with ul li a {
+  display: inline-block;
+}
+.understand .with ul li a .understand-top {
+  width: 350px;
+  height: 196px;
+  vertical-align: middle;
+  background: url(../images/WCTAZ25D9QRA1479763800910.jpg) no-repeat center center;
+  background-size: contain;
+}
+.understand .with ul li a .understand-button {
+  width: 350px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #002650;
+}
+.understand .with ul li a .to2 {
+  background-image: url(../images/F3QTSX823VMO1475598072511.jpg);
+}
+.understand .with ul li a .to3 {
+  background-image: url(../images/AWCQLTSQUVC81475598073559.jpg);
+}
+.introduced {
+  width: 100%;
+  height: 570px;
+  background: url(../images/generic-landscape-texture_bg_short-c67b55f50ca032607997398840751185782dd86436566617ed80dd553f62a890f554ca38ef1de26c6d60b4976ebea6145b9916091073d06823aa9853a093f3e7.jpg) no-repeat center center;
+  background-size: cover;
+}
+.introduced .kongde {
+  width: 100%;
+  height: 80px;
+}
+.introduced .chakan {
+  width: 1120px;
+  margin: auto;
+  text-align: center;
+}
+.introduced .chakan button {
+  margin-bottom: 20px;
+  width: 210px;
+  height: 46px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0e86ca;
+  border: 1px solid #00aeff;
+}
+.introduced .chakan p {
+  font-size: 18px;
+}
+.introduced .chakan .guan-1 {
+  color: #00aeff;
+}
+.introduced .chakan .guan-2 {
+  margin-top: 40px;
+  color: #fff;
+}
+.introduced .chakan .tubiao-1 {
+  width: 100%;
+  height: 48px;
+  margin-top: 20px;
+}
+.introduced .chakan .tubiao-1 .content {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+}
+.introduced .chakan .tubiao-1 .content a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  transform: translateX(100%);
+  background: url(../images/ULHCR.png) no-repeat center center;
+  background-size: contain;
+}
+.introduced .requirements {
+  margin: 40px auto 0 auto;
+  width: 1120px;
+  font-size: 14px;
+}
+.introduced .requirements p {
+  padding-bottom: 10px;
+  color: rgba(225, 225, 225, 0.3);
+}
+footer {
+  width: 100%;
+  height: 527px;
+  border-top: 1px solid #ccc;
+  background: url(../images/careers-footer-bg-lg-1ef544513bc161835a4bb721dbde4e1b85ab57f05ddf45ececa5f68aee53273b941f2b3d3a87bf79ed16a39a84e27fe4e056f8f2396dad93d8d41f1ead4b0f63.jpg) no-repeat center center;
+}
+footer .kongde {
+  width: 100%;
+  height: 80px;
+}
+footer .ends {
+  width: 100%;
+}
+footer .ends .language {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+footer .ends .language .diqiu {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  color: #00c6ff;
+}
+footer .ends .language .size {
+  color: rgba(225, 225, 225, 0.7);
+  font-size: 16px;
+}
+footer .ends .language .shangxia {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 18px;
+  color: #fff;
+}
+footer .ends .loog-bg {
+  display: block;
+  width: 124px;
+  height: 66px;
+  margin: 30px auto;
+  background: url(../images/blz_logo.png) no-repeat center center;
+  background-size: contain;
+}
+footer .ends .lianxi {
+  width: 100%;
+  text-align: center;
+}
+footer .ends .lianxi ul {
+  display: inline-block;
+}
+footer .ends .lianxi ul li {
+  float: left;
+  color: rgba(225, 225, 225, 0.7);
+}
+footer .ends .lianxi ul li a {
+  display: inline-block;
+  padding: 0 10px;
+  color: rgba(225, 225, 225, 0.7);
+}
+footer .ends p {
+  font-size: 13px;
+  color: rgba(225, 225, 225, 0.3);
+  text-align: center;
+}
+footer .ends p a {
+  font-size: 13px;
+  color: rgba(225, 225, 225, 0.7);
+  padding: 10px;
+}
